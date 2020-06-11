@@ -1,0 +1,14 @@
+.x-toolbar .report-registry-button .x-btn-icon-el {
+	color: #444444;
+	font-size: 24px;
+	padding: 1px 0 0;
+	width: 25px;
+}
+
+.x-panel.has-no-report-name li.x-tagfield-item[data-fielditemid="report_id"] {
+	display: none;
+}
+
+.reportregion-grid-panel td[data-value-highlighted="red"] > div {
+	color: red;
+}

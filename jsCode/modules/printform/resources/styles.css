@@ -1,0 +1,33 @@
+/*
+	Стилизация элементов оформления модального окна с фильтром печатных форм.
+	Родительский css-класс для описания стилей: .project-printform-filter
+*/
+.project-printform-filter fieldset > legend {
+	font-size: 14px;
+	line-height: 16px;
+}
+.project-printform-filter fieldset .x-form-fieldcontainer label {
+	font-size: 11px;
+}
+.project-printform-filter .x-fieldset-default {
+	border: 1px solid #cecece;
+	border-radius: 3px;
+	margin: 0 0 10px;
+	padding: 0 3px;
+}
+.project-printform-filter .x-fieldset-header-default {
+	margin: 0 12px;
+	padding: 0 4px;
+}
+.project-printform-filter .form-main-fieldset {
+	margin: 0 2px 15px;
+}
+
+.project-printform-filter .form-plan-fieldset {
+	margin: 5px 2px 15px;
+}
+.project-printform-filter .x-fieldset-header-default > .x-fieldset-header-text {
+	color: #4c4c4c;
+	font: 300 13px/16px helvetica,arial,verdana,sans-serif;
+	padding: 1px 0 3px;
+}
